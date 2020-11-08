@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                         //on main thread
                         RecordAdapter adapter = new RecordAdapter(MainActivity.this, out);
                         mreCyclerView.setAdapter(adapter);
-                        total.setText("Total: "+totalo);
+                        total.setText("TOTAL: "+totalo);
                         overlimit.setText("OVER LIMIT: "+overo);
 
 
